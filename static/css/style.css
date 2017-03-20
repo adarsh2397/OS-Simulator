@@ -1,0 +1,18 @@
+#page-heading{
+    display: none;
+    text-align: center;
+}
+
+#input-data-form{
+    display: none;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#part-2{
+    display: none;
+}
+
+#submit-button{
+    display: none;
+}
