@@ -16,6 +16,7 @@
     <script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <script src="{% static 'js/mft/demo.js' %}"></script>
+    <script src="{% static 'js/typeit.js' %}"></script>
 </head>
 <script>
     var totalMemory = {{ total_memory }};
@@ -51,10 +52,30 @@
         </div>
         <div class="col-sm-6" id="right-box">
             <div class="row" id="top-box">
-
+                <h3>Output Table</h3>
+                <table class="table table-striped" id="output-table">
+                    <thead>
+                    <tr>
+                        <th>Process No.</th>
+                        <th>Process Size</th>
+                        <th>Allocation Status</th>
+                        <th>Block No.</th>
+                        <th>Internal Fragmentation</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
             <div class="row" id="bottom-box">
+                <div id="terminal-header" style="text-align: center;">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">Terminal - log.txt</div>
+                    <div class="col-sm-3"></div>
+                </div>
+                <div id="terminal-body">
 
+                </div>
             </div>
         </div>
     </div>

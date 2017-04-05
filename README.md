@@ -1,5 +1,6 @@
-# OS-Simulator
-A Simulator to demonstrate functions of an operating System
+### Operating Systems Lab
+    This is an Operating Systems Lab simulator built using Python/Django and uses JavaScript for all the animations.
 
-Don't merge your own pull requests. Let two people review it first. 
-Don't push directly to master branch.
+### How to use?
+>Clone the folder
+>python manage.py 
